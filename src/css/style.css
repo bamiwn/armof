@@ -1,0 +1,71 @@
+/* IMPORT */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800;900&display=swap');
+
+/* GLOBAL */
+:root {
+  --primary: #ff6600;
+  --secondary: #192e35;
+}
+
+body {
+  font-family: 'Barlow', sans-serif;
+  text-align: justify;
+}
+
+h1 {
+  text-align: center;
+}
+
+.text-color-primary {
+  color: var(--primary);
+}
+
+.text-color-secondary {
+  color: var(--secondary);
+}
+
+.bg-color-primary {
+  background-color: var(--primary);
+}
+
+.bg-color-secondary {
+  background-color: var(--secondary);
+}
+
+.logo-header {
+  height: 60px;
+  width: auto;
+}
+
+footer {
+  border-bottom: 70px solid var(--secondary);
+  border-right: 100px solid transparent;
+  border-left: 100px solid transparent;
+}
+
+.copyright::after {
+  content: 'Copyright 2022';
+  display: block;
+  position: absolute;
+  margin-left: -50px;
+  line-height: 60px;
+}
+
+/* ANDROID */
+
+/* PC */
+@media (min-width: 768px) {
+  h1 {
+    text-align: left;
+  }
+
+  .logo-header {
+    height: 80px;
+    width: auto;
+  }
+
+  .masuk {
+    display: block;
+    margin-right: 150px;
+  }
+}
