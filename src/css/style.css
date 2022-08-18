@@ -32,9 +32,101 @@ h1 {
   background-color: var(--secondary);
 }
 
+/* STYLING */
 .logo-header {
   height: 60px;
   width: auto;
+}
+
+/* FURNITURE */
+div.bentuk {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  color: white;
+  font-weight: 800;
+  font-size: 24px;
+  background-color: var(--secondary);
+}
+
+div.bentuk-dasar::before {
+  color: var(--secondary);
+  position: absolute;
+  display: block;
+  margin-top: 80px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+div.bentuk-satu::before {
+  content: 'FURNITURE';
+}
+
+div.bentuk-dua::before {
+  content: 'FUNGSI';
+}
+
+div.bentuk-tiga::before {
+  content: 'USIA';
+}
+
+div.bentuk-empat::before {
+  content: 'TINGGI & BERAT';
+}
+
+.satu::after {
+  content: '1';
+}
+
+.satu::before {
+  content: 'FURNITURE';
+}
+
+.dua::after {
+  content: '2';
+}
+.tiga::after {
+  content: '3';
+}
+.empat::after {
+  content: '4';
+}
+
+.garis {
+  height: 20px;
+  margin-right: -10px;
+  background-color: var(--secondary);
+}
+
+.garis-satu {
+  width: 80px;
+}
+
+.garis-dua {
+  width: 140px;
+  margin-left: -10px;
+}
+
+.garis-tiga {
+  width: 140px;
+  margin-left: -10px;
+}
+
+.garis-empat {
+  width: 140px;
+  margin-left: -10px;
+}
+
+.garis-lima {
+  width: 80px;
+  margin-left: -10px;
+}
+
+/* FOOTER */
+.container-footer {
+  margin-top: 50px;
 }
 
 footer {
@@ -50,8 +142,6 @@ footer {
   margin-left: -50px;
   line-height: 60px;
 }
-
-/* ANDROID */
 
 /* PC */
 @media (min-width: 768px) {
