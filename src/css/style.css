@@ -39,6 +39,24 @@ h1 {
 }
 
 /* FURNITURE */
+.ganti-model-primary {
+  color: white;
+  background-color: var(--secondary);
+}
+
+.ganti-model-secondary {
+  color: var(--secondary) !important;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.garis-primary {
+  background-color: #00000;
+}
+
+.garis-secondary {
+  background-color: var(--secondary);
+}
+
 div.bentuk {
   display: flex;
   justify-content: center;
@@ -48,7 +66,7 @@ div.bentuk {
   color: white;
   font-weight: 800;
   font-size: 24px;
-  background-color: var(--secondary);
+  /* background-color: var(--secondary); */
 }
 
 div.bentuk-dasar::before {
@@ -97,7 +115,6 @@ div.bentuk-empat::before {
 .garis {
   height: 20px;
   margin-right: -10px;
-  background-color: var(--secondary);
 }
 
 .garis-satu {
@@ -122,6 +139,18 @@ div.bentuk-empat::before {
 .garis-lima {
   width: 80px;
   margin-left: -10px;
+}
+
+.mask::after {
+  content: '';
+  width: 150px;
+  height: 150px;
+  display: block;
+  position: absolute;
+  top: 30%;
+  right: 28%;
+  background-image: url('../img/checklist.png');
+  background-repeat: no-repeat;
 }
 
 /* FOOTER */
