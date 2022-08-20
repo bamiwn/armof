@@ -32,6 +32,10 @@ h1 {
   background-color: var(--secondary);
 }
 
+.border-color-primary {
+  border: 3px solid var(--primary);
+}
+
 /* STYLING */
 .logo-header {
   height: 60px;
@@ -54,7 +58,7 @@ h1 {
 }
 
 .garis-secondary {
-  background-color: var(--secondary);
+  background-color: #00000;
 }
 
 div.bentuk {
@@ -186,5 +190,9 @@ footer {
   .masuk {
     display: block;
     margin-right: 150px;
+  }
+
+  .garis-secondary {
+    background-color: var(--secondary);
   }
 }
