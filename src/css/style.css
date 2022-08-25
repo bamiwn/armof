@@ -1,5 +1,5 @@
 /* IMPORT */
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800;900&display=swap');
+@import url('http://fonts.cdnfonts.com/css/bahnschrift');
 
 /* GLOBAL */
 :root {
@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Bahnschrift', sans-serif;
   text-align: justify;
 }
 
@@ -156,6 +156,22 @@ div.bentuk-empat::before {
   background-repeat: no-repeat;
 }
 
+.form-search i {
+  display: block;
+  margin-left: -30px;
+}
+
+/* ANTRO */
+.antropometri img {
+  width: 100%;
+  height: auto;
+}
+
+/* TENTANG */
+.logo-tentang {
+  height: 100px;
+}
+
 /* FOOTER */
 .container-footer {
   margin-top: 50px;
@@ -193,5 +209,9 @@ footer {
 
   .garis-secondary {
     background-color: var(--secondary);
+  }
+
+  .logo-tentang {
+    height: 150px;
   }
 }
